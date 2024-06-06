@@ -1,0 +1,122 @@
+/*---------------------------------------------*/
+.tab{
+	min-height: 400px;
+	width: 90%;
+	opacity: 0.9;
+	background:white;
+	margin: 20px calc(4%);
+	border-radius: 10px;
+	padding: 10px;
+	display: none;
+}
+
+.tab h2{
+	color: navy;
+	font-size: 20px; 
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey; 
+	position: relative;
+}
+
+.tab input[type="find"]{
+	position: absolute;
+	right: 10px;
+	padding: 2px;
+	width: 190px;
+}
+
+
+.tab p{
+	padding: 2px;
+}
+
+.tab p:hover{
+	background: lightyellow; 
+	cursor: pointer;
+}
+
+.visible{
+	display: inline-block;
+}
+
+#films, #halls{
+	width: 300px;
+	min-height: 400px;
+	float: left;
+}
+
+.film_tab, .hall_tab{
+	margin-left: 305px;
+	min-height: 300px;
+	padding: 10px;	
+}
+
+#film_edit .fdata{
+	float: left;
+	width: calc(100% - 210px);
+}
+
+#hall_edit .fdata{
+	float: left;
+	width: 100%;
+}
+
+#film_edit input, textarea{	
+	width: 98%;
+	margin:5px 0px; 
+	padding: 3px;
+}
+
+.poster{
+	width: 200px;
+	height: 300px;
+	background: url(../images/1.jpg);
+	background-size: cover;
+	float: right;
+}
+
+.buttons{
+	clear: both;
+	text-align: center;
+}
+
+.buttons button{
+	padding: 5px;
+}
+
+.tab span{
+	font-size: 90%;
+	color: grey;
+	padding-right: 20px;
+	cursor:pointer;	
+}
+
+.tab span:nth-child(1){
+	margin-left: 240px;
+}
+
+.tab .select{
+	color: black !important; //#9a7b28
+}
+
+#film_sessions{
+
+}
+
+#film_sessions input, select, button{
+	margin:5px 2px; 
+	padding: 3px;
+	//font-size: 90%;
+}
+
+#film_sessions select{
+	padding: 5px;
+}
+
+#film_sessions button{
+	width: 28px;
+	height: 28px;
+	font-size:100%; 
+	vertical-align: middle;
+	cursor: pointer;
+}
